@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findmin (a){
+        let min= a[0];
+        for (let i = 1; i <a.length; i++) {
+            if (a[i]< min){
+                min=a[i]
+            }
+        } return min
+    }
+    let arr1 = [553,5,33,25,1,53];
+    let b = findmin(arr1);
+    alert(b)
+</script>
+</body>
+</html>
